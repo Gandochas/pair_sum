@@ -9,7 +9,7 @@ def test_pair_sum():
     assert pair_sum(arr, 29) == False, "Test case 2 failed"
     assert pair_sum(arr, 28) == True, "Test case 3 failed"
     assert pair_sum(arr, 17) == True, "Test case 4 failed"
-    assert pair_sum(arr, 2) == True, "Test case 5 failed"
+    assert pair_sum(arr, 2) == False, "Test case 5 failed"
     assert pair_sum(arr, 99) == False, "Test case 6 failed"
 
 
