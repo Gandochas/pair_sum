@@ -11,6 +11,7 @@ def test_pair_sum():
     assert pair_sum(arr, 17) == True, "Test case 4 failed"
     assert pair_sum(arr, 2) == False, "Test case 5 failed"
     assert pair_sum(arr, 99) == False, "Test case 6 failed"
+    assert pair_sum(arr, 98) == False, "Test case 7 failed"
 
 
 if __name__ == "__main__":
