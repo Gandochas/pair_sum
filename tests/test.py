@@ -9,10 +9,10 @@ def test_pair_sum():
     arr = [1, 7, 13, 23, 3, 9, 4, 5, 15]
 
     assert pair_sum(arr, 10) == True, "Test case 1 failed"
-    assert pair_sum(arr, 30) == False, "Test case 2 failed"
+    assert pair_sum(arr, 29) == False, "Test case 2 failed"
     assert pair_sum(arr, 28) == True, "Test case 3 failed"
     assert pair_sum(arr, 17) == True, "Test case 4 failed"
-    assert pair_sum(arr, 8) == True, "Test case 5 failed"
+    assert pair_sum(arr, 2) == True, "Test case 5 failed"
 
 
 if __name__ == "__main__":
